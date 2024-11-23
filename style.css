@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: aqua;
+    height: 80px;
+}
+
+#logo{
+    font-size: 24px;
+}
+
+#header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 40%;
+    /* DEBUG */
+    background-color: darkgoldenrod;
+    height: 30px;
+    border: 2px solid black;
+}
+
+ul{
+    display: flex;
+    min-width: 300px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+#login{
+    display: flex;
+    font-size: 24px;
+}
+
