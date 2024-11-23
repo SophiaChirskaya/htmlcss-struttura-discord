@@ -9,24 +9,27 @@ header{
     height: 80px;
 }
 
-#logo{
-    font-size: 24px;
-}
-
 #header-nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-basis: 40%;
+    width: 70%;
     /* DEBUG */
     background-color: darkgoldenrod;
     height: 30px;
-    border: 2px solid black;
+    border: 2px dashed black;
+}
+
+#logo{
+    font-size: 24px;
+    width: 15%;
+    border: 2px dashed black;
+    justify-content: center;
 }
 
 ul{
     display: flex;
-    min-width: 300px;
+    width: 40%;
     justify-content: space-between;
     text-decoration: none;
 }
@@ -38,5 +41,78 @@ ul li{
 #login{
     display: flex;
     font-size: 24px;
+    width: 15%;
+    border: 2px dashed black;
+    justify-content: center;
 }
+
+#jumbo{
+    width: auto;
+    background-color: blue;
+    height: 400px;
+    display: flex;
+    justify-items:center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.jumbo-square{
+    width: 50%;
+    background-color: coral;
+    height: 350px;
+    border: 2px dashed black;
+}
+
+.block{
+    width: auto;
+    background-color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+}
+
+.cross-block{
+    width: auto;
+    background-color: grey;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.block-sketch{
+    background-color: aqua;
+    width: 450px;
+    height: 350px;
+    border: 2px dashed black;
+    
+}
+
+.block-text{
+    background-color: rosybrown;
+    width: 300px;
+    height: 350px;
+    border: 2px dashed black;
+    
+}
+
+.jumbo2{
+    width: auto;
+    background-color: gray;
+    height: 400px;
+    display: flex;
+    justify-items:center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.jumbo2-square{
+    width: 50%;
+    background-color: green;
+    height: 350px;
+    border: 2px dashed black;
+}
+
+
 
