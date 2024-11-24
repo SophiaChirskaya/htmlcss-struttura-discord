@@ -69,8 +69,9 @@ ul li{
 
 .jumbo-square{
     width: 50%;
-    background-color: coral;
     height: 350px;
+    /* DEBUG */
+    background-color: coral;
     border: 2px dashed black;
 }
 
@@ -126,8 +127,63 @@ ul li{
 }
 
 #footer-nav{
-    
+    width: auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
 }
+
+#column-social{
+    width: 190px;
+    height: 80%;
+    background-color: rosybrown;
+    border: 2px dashed black;
+}
+
+.column-nav{
+    width: 140px;
+    height: 80%;
+    background-color: darkseagreen;
+    border: 2px dashed black;
+}
+
+hr{
+    color: blanchedalmond;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+    justify-content: space-between;
+}
+
+#logo-footer{
+    font-size: 24px;
+    height: 30px;
+    width: 15%;
+    justify-content: center;
+    text-align: center;
+    /* DEBUG */
+    background-color: salmon;
+    border: 2px dashed black; 
+
+}
+
+#button{
+    font-size: 24px;
+    height: 30px;
+    width: 15%;
+    text-align: center;    
+    /* DEBUG */
+    background-color: salmon;
+    border: 2px dashed black; 
+
+}
+
 
 
 
