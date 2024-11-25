@@ -4,19 +4,25 @@
     box-sizing: border-box;
 }
 
-header{
+header .topbar{
     display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
     justify-content: center;
     align-items: center;
-    background-color: lightseagreen;
     height: 80px;
+    /* DEBUG */
+    background-color: lightseagreen;
 
 }
+body{
+    font-size: 20px;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+}
 
-#logo-header{
-    font-size: 24px;
+.logo{
     height: 30px;
-    width: 15%;
+    width: 20%;
     justify-content: center;
     text-align: center;
     /* DEBUG */
@@ -24,11 +30,11 @@ header{
     border: 2px dashed black;   
 }
 
-#header-nav{
+.menu-nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 50%;
+    width: 40%;
     /* DEBUG */
     background-color: darkgoldenrod;
     height: 30px;
@@ -47,9 +53,8 @@ ul li{
     text-decoration: none;
 }
 
-#login{
-    font-size: 24px;
-    width: 15%;
+.login{
+    width: 20%;
     justify-content: center;
     text-align: center;
     /* DEBUG */
@@ -60,7 +65,7 @@ ul li{
 #jumbo{
     width: auto;
     background-color: blue;
-    height: 400px;
+    min-height: 400px;
     display: flex;
     justify-items:center;
     align-items: center;
@@ -76,7 +81,7 @@ ul li{
 }
 
 .block{
-    width: auto;
+    width: 100%;
     background-color: white;
     height: 400px;
     display: flex;
@@ -85,7 +90,7 @@ ul li{
 }
 
 .cross-block{
-    width: auto;
+    width: 100%;
     background-color: grey;
     height: 400px;
     display: flex;
@@ -95,7 +100,7 @@ ul li{
 
 .block-sketch{
     background-color: aqua;
-    width: 450px;
+    width: 40%;
     height: 350px;
     border: 2px dashed black;
     
@@ -103,7 +108,7 @@ ul li{
 
 .block-text{
     background-color: rosybrown;
-    width: 300px;
+    width: 30%;
     height: 350px;
     border: 2px dashed black;
     
@@ -120,14 +125,14 @@ ul li{
 }
 
 .jumbo2-square{
-    width: 750px;
+    width: 70%;
     background-color: green;
     height: 350px;
     border: 2px dashed black;
 }
 
-#footer-nav{
-    width: auto;
+.footer-top{
+    width: 100%;
     height: 300px;
     display: flex;
     justify-content: center;
@@ -135,15 +140,15 @@ ul li{
     background-color: black;
 }
 
-#column-social{
-    width: 190px;
+.column-social{
+    flex-basis: 22%;
     height: 80%;
     background-color: rosybrown;
     border: 2px dashed black;
 }
 
 .column-nav{
-    width: 140px;
+    width: 12%;
     height: 80%;
     background-color: darkseagreen;
     border: 2px dashed black;
@@ -153,7 +158,7 @@ hr{
     color: blanchedalmond;
 }
 
-#footer{
+.footer-bottom{
     display: flex;
     align-items: center;
     height: 80px;
